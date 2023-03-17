@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: config-policy-controller-0pyc
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:Rnb0C-config-policy-controller-0pyc
+      - image: quay.io/redhat-appstudio/user-workload@sha256:29847ec86deb25446f54578c3298eb8c23b8eaf2bcc14f91b3de18bd6282ba2f
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
