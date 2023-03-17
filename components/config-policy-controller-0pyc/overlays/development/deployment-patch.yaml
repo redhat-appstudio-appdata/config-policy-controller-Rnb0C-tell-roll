@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: config-policy-controller-0pyc
+  namespace: red-hat-acm-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:29847ec86deb25446f54578c3298eb8c23b8eaf2bcc14f91b3de18bd6282ba2f
+        name: container-image
+        resources: {}
+status: {}
