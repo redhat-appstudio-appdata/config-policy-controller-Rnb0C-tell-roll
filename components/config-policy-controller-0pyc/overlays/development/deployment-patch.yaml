@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   name: config-policy-controller-0pyc
-  namespace: red-hat-acm-tenant
 spec:
   replicas: 1
   selector: {}
