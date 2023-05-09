@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: config-policy-controller-0pyc
     app.kubernetes.io/part-of: config-policy-controller
   name: config-policy-controller-0pyc
-  namespace: red-hat-acm-tenant
 spec:
   ports:
   - port: 8080
